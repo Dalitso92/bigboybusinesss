@@ -1,0 +1,42 @@
+
+.box3{
+	display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+	width: 299px;
+	height: 150px;
+	margin: 10px;
+	margin-left: 50px;
+	border-radius: 2px;
+}
+
+
+.bar {
+width: 20px;
+height: 40px;
+border-radius: 4px;
+animation: wave 6s ease-in-out infinite alternate;
+}
+
+/* Color each bar differently and delay slightly for wave effect */
+.bar:nth-child(1) { background: red; animation-delay: 6s; }
+.bar:nth-child(2) { background: green; animation-delay: 1.2s; }
+.bar:nth-child(3) { background: red; animation-delay: 3.4s; }
+.bar:nth-child(4) { background: red; animation-delay: 2.6s; }
+.bar:nth-child(5) { background: green; animation-delay: 4.8s; }
+.bar:nth-child(6) { background: red; animation-delay: 1s; }
+.bar:nth-child(7) { background: green; animation-delay: 4.8s; }
+.bar:nth-child(8) { background: red; animation-delay: 5.4s; }
+.bar:nth-child(9) { background: red; animation-delay: 2.4s; }
+.bar:nth-child(10) { background: green; animation-delay: 2.4s; }
+/* Keyframes for wave with pauses */
+
+@keyframes wave {
+0% { height: 40px; } /* Start small */
+30% { height: 120px; } /* Move up */
+50% { height: 120px; } /* Pause at top */
+80% { height: 40px; } /* Move down */
+100% { height: 40px; } /* Pause at bottom */
+}
