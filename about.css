@@ -143,6 +143,12 @@ a{
 	margin: 3px;
 	margin-left: 100px;
 	height: 40px;
+
+	.btncheck:hover{
+	width: 100px;
+	background: white;
+	color: black;
+}
 }
 
 
@@ -175,6 +181,11 @@ a{
 	height: 40px;
 }
 
+	.btncheck:hover{
+	width: 100px;
+	background: white;
+	color: black;
+}
 
 
 .slide{
@@ -236,7 +247,11 @@ a{
 	margin-left: 200px;
 	height: 40px;
 }
-
+.btncheck:hover{
+	width: 105px;
+	background: white;
+	color: black;
+}
 
 
 .slide{
@@ -301,6 +316,11 @@ a{
 	height: 40px;
 	background: black;
 }
+.btncheck:hover{
+	width: 122px;
+	background: white;
+	color: black;
+}
 
 
 
@@ -330,6 +350,12 @@ a{
 	background: black;
 }
 
+	.btncheck:hover{
+	width: 109px;
+	background: white;
+	color: black;
+}
+
 .slide{
 	width: 98%;
 	height: 600px;
@@ -356,6 +382,12 @@ a{
 	margin-left: 0;
 	height: 40px;
 	background: black;
+}
+
+	.btncheck:hover{
+	width: 100px;
+	background: white;
+	color: black;
 }
 
 
@@ -396,3 +428,4 @@ a{
 }
 	
 }
+
