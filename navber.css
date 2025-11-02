@@ -1,0 +1,164 @@
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: black;
+	padding: 20px 30px;
+	border-bottom: 2px solid white;
+	box-shadow: 0px 1px 5px 1px  white;
+}
+
+.logo{
+	color: white;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+
+
+.drop{
+	position: relative;
+	display:inline-block;
+}
+
+.dropbtn{
+	background: black;
+	color: white;
+	padding: 12px 50px;
+	font-size: 16px;
+	border: 1px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.dropbtn:hover{
+	background: white;
+	color: black;
+}
+
+.content{
+	display: none;
+	position: absolute;
+	background: black;
+	min-width: 108px;
+	min-height: 100px;
+	border: 1px solid white;
+
+
+}
+
+.content a{
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	transition: 1s;
+}
+
+.content a:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+
+
+.drop:hover .content{
+	display: block;
+}
+
+
+
+
+
+@media (max-width:370px)
+{
+	.dropbtn{
+		padding: 4px 10px;
+		
+	}
+
+	.logo{
+	color: white;
+	font-weight: bold;
+	font-size: 1.0em;
+    }
+
+
+}
+
+
+@media (max-width:390px)
+{
+	.dropbtn{
+		padding: 6px 20px;
+		
+	}
+
+	.logo{
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+    }
+
+
+}
+
+
+
+
+@media (max-width:564px)
+{
+	.dropbtn{
+		padding: 6px 30px;
+		
+	}
+
+	.logo{
+	color: white;
+	font-weight: bold;
+	font-size: 1.3em;
+    }
+
+
+}
+
+
+@media (max-width:464px)
+{
+	.dropbtn{
+		padding: 6px 30px;
+		
+	}
+
+	.logo{
+	color: white;
+	font-weight: bold;
+	font-size: 1.0em;
+    }
+
+
+}
+
+@media (max-width:394px)
+{
+	.dropbtn{
+		padding: 6px 30px;
+		
+	}
+
+	.logo{
+	color: white;
+	font-weight: bold;
+	font-size: 1.02em;
+    }
+
+
+}
+
+
+
+
+
+
